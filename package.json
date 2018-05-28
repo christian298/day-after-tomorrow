@@ -1,0 +1,20 @@
+{
+  "name": "day-after-tomorrow",
+  "displayName": "day-after-tomorrow",
+  "description": "VSCode theme based on Tomorrow-Night",
+  "version": "0.0.1",
+  "publisher": "csa",
+  "engines": {
+    "vscode": "^1.23.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Day After Tomorrow",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Day After Tomorrow-color-theme.json"
+      }
+    ]
+  }
+}
