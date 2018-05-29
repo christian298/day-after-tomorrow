@@ -116,6 +116,14 @@
       }
     },
     {
+      "name": "Storage",
+      "scope": ["meta.var.expr storage", "meta.var.expr storage.type"],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#cc6666"
+      }
+    },
+    {
       "name": "Invalid",
       "scope": "invalid",
       "settings": {
@@ -183,6 +191,7 @@
       "name": "Attributes",
       "scope": [
         "meta.tag.attributes.js.jsx",
+        "meta.tag.attributes.js.tsx",
         "entity.other.attribute-name.js.jsx",
         "entity.other.attribute-name"
       ],
@@ -210,7 +219,8 @@
       "name": "Support Class Component",
       "scope": ["support.class.component"],
       "settings": {
-        "fontStyle": "bold"
+        "fontStyle": "bold",
+        "foreground": "#cc6666"
       }
     },
     {
@@ -266,7 +276,7 @@
     },
     {
       "name": "JS This",
-      "scope": ["variable.language.this.js"],
+      "scope": ["variable.language.this"],
       "settings": {
         "foreground": "#cc6666"
       }
@@ -277,20 +287,29 @@
       "settings": {
         "foreground": "#de935f"
       }
+    },
+    {
+      "name": "Object Property",
+      "scope": ["variable.other.object.property"],
+      "settings": {
+        "foreground": "#de935f"
+      }
     }
   ],
   "colors": {
-    "editor.background": "#1d1f21",
+    "editor.background": "#1d1d1d",
     "editorCursor.foreground": "#AEAFAD",
     "editor.foreground": "#C5C8C6",
     "editorWhitespace.foreground": "#4B4E55",
     "editor.lineHighlightBackground": "#282A2E",
     "editor.selectionBackground": "#373b41",
-    "sideBar.background": "#1d1f21",
-    "sideBar.border": "#2a2a2a",
+    "sideBar.background": "#1d1d1d",
+    "sideBar.border": "#282a2e",
     "statusBar.background": "#81a2be",
-    "tab.activeBackground": "#373b41",
-    "tab.inactiveBackground": "#2a2a2a"
+    "tab.activeBackground": "#1d1d1d",
+    "tab.inactiveBackground": "#2a2a2a",
+    "activityBar.background": "#1d1d1d",
+    "activityBar.border": "#282a2e"
   },
   "name": "Day After Tomorrow"
 }
