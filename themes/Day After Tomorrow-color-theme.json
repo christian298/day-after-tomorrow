@@ -251,11 +251,7 @@
     },
     {
       "name": "Function, Method",
-      "scope": [
-        "storage.type.function",
-        "meta.definition.method",
-        "meta.class entity.name.function"
-      ],
+      "scope": ["storage.type.function", "meta.definition.method"],
       "settings": {
         "fontStyle": "italic"
       }
