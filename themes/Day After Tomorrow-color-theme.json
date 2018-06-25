@@ -236,7 +236,11 @@
     },
     {
       "name": "Support DOM",
-      "scope": ["support.function.dom", "support.function"],
+      "scope": [
+        "support.function.dom",
+        "support.function",
+        "support.variable.property.dom"
+      ],
       "settings": {
         "foreground": "#b5bd68"
       }
@@ -285,7 +289,7 @@
     },
     {
       "name": "Object Property",
-      "scope": ["variable.other.object.property"],
+      "scope": ["variable.other.object.property", "variable.other.property"],
       "settings": {
         "foreground": "#de935f"
       }
