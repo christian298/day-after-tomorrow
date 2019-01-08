@@ -14,19 +14,14 @@
     },
     {
       "name": "Foreground",
-      "scope": [
-        "keyword.operator.class",
-        "constant.other",
-        "source.php.embedded.line"
-      ],
+      "scope": ["keyword.operator.class", "constant.other", "source.php.embedded.line"],
       "settings": {
         "fontStyle": "",
         "foreground": "#CED1CF"
       }
     },
     {
-      "name":
-        "Variable, String Link, Regular Expression, Tag Name, GitGutter deleted",
+      "name": "Variable, String Link, Regular Expression, Tag Name, GitGutter deleted",
       "scope": [
         "variable",
         "support.other.variable",
@@ -42,13 +37,12 @@
       }
     },
     {
-      "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+      "name": "Number, Constant, Tag Attribute, Embedded",
       "scope": [
         "constant.numeric",
         "constant.language",
         "support.constant",
         "constant.character",
-        "variable.parameter",
         "punctuation.section.embedded",
         "keyword.other.unit"
       ],
@@ -58,21 +52,23 @@
       }
     },
     {
+      "name": "Function Argument",
+      "scope": ["variable.parameter"],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#de935f"
+      }
+    },
+    {
       "name": "Class, Support",
-      "scope": [
-        "entity.name.class",
-        "entity.name.type.class",
-        "support.type",
-        "support.class"
-      ],
+      "scope": ["entity.name.class", "entity.name.type.class", "support.type", "support.class"],
       "settings": {
         "fontStyle": "",
         "foreground": "#f0c674"
       }
     },
     {
-      "name":
-        "String, Symbols, Inherited Class, Markup Heading, GitGutter inserted",
+      "name": "String, Symbols, Inherited Class, Markup Heading, GitGutter inserted",
       "scope": [
         "string",
         "constant.other.symbol",
@@ -107,11 +103,19 @@
       }
     },
     {
+      "name": "Function name",
+      "scope": ["entity.name.function"],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#81a2be"
+      }
+    },
+    {
       "name": "Keyword, Storage",
       "scope": ["keyword", "storage", "storage.type", "entity.name.tag.css"],
       "settings": {
         "fontStyle": "",
-        "foreground": "#b294bb"
+        "foreground": "#bb92d8"
       }
     },
     {
@@ -119,7 +123,7 @@
       "scope": ["meta.var.expr storage", "meta.var.expr storage.type"],
       "settings": {
         "fontStyle": "",
-        "foreground": "#DF6962"
+        "foreground": "#E56B64"
       }
     },
     {
@@ -161,14 +165,14 @@
       "name": "Diff insertion",
       "scope": ["markup.inserted.diff", "meta.diff.header.to-file"],
       "settings": {
-        "foreground": "#718c00"
+        "foreground": "#b5bd68"
       }
     },
     {
       "name": "Diff deletion",
       "scope": ["markup.deleted.diff", "meta.diff.header.from-file"],
       "settings": {
-        "foreground": "#c82829"
+        "foreground": "#E56B64"
       }
     },
     {
@@ -211,7 +215,7 @@
       "scope": ["keyword.control.conditional", "keyword.control.trycatch"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#DF6962"
+        "foreground": "#E56B64"
       }
     },
     {
@@ -219,28 +223,20 @@
       "scope": ["support.class.component"],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#DF6962"
+        "foreground": "#E56B64"
       }
     },
     {
       "name": "Modules",
-      "scope": [
-        "keyword.control.import",
-        "keyword.control.export",
-        "keyword.control.from"
-      ],
+      "scope": ["keyword.control.import", "keyword.control.export", "keyword.control.from"],
       "settings": {
-        "foreground": "#b294bb",
+        "foreground": "#bb92d8",
         "fontStyle": "italic"
       }
     },
     {
       "name": "Support DOM",
-      "scope": [
-        "support.function.dom",
-        "support.function",
-        "support.variable.property.dom"
-      ],
+      "scope": ["support.function.dom", "support.function", "support.variable.property.dom"],
       "settings": {
         "foreground": "#b5bd68"
       }
@@ -270,21 +266,22 @@
       "name": "Entity Tag",
       "scope": ["entity.name.tag"],
       "settings": {
-        "foreground": "#DF6962"
+        "foreground": "#E56B64"
       }
     },
     {
       "name": "JS This",
       "scope": ["variable.language.this"],
       "settings": {
-        "foreground": "#DF6962"
+        "foreground": "#E56B64"
       }
     },
     {
       "name": "Async",
       "scope": ["storage.modifier.async"],
       "settings": {
-        "foreground": "#de935f"
+        "foreground": "#de935f",
+        "fontStyle": "bold"
       }
     },
     {
@@ -293,21 +290,36 @@
       "settings": {
         "foreground": "#de935f"
       }
+    },
+    {
+      "name": "Type parameters",
+      "scope": ["meta.type.parameters"],
+      "settings": {
+        "foreground": "#f0c674"
+      }
+    },
+    {
+      "name": "Type parameters",
+      "scope": ["meta.type.annotation"],
+      "settings": {
+        "foreground": "#de935f",
+        "fontStyle": "italic"
+      }
     }
   ],
   "colors": {
-    "editor.background": "#1d1d1d",
+    "editor.background": "#12141d",
     "editorCursor.foreground": "#AEAFAD",
     "editor.foreground": "#C5C8C6",
     "editorWhitespace.foreground": "#4B4E55",
     "editor.lineHighlightBackground": "#282a2e",
     "editor.selectionBackground": "#373b41",
-    "sideBar.background": "#1d1d1d",
+    "sideBar.background": "#12141d",
     "sideBar.border": "#282a2e",
     "statusBar.background": "#4B4E55",
-    "tab.activeBackground": "#1d1d1d",
-    "tab.inactiveBackground": "#2a2a2a",
-    "activityBar.background": "#1d1d1d",
+    "tab.activeBackground": "#12141d",
+    "tab.inactiveBackground": "#1a1d2b",
+    "activityBar.background": "#12141d",
     "activityBar.border": "#282a2e"
   },
   "name": "Day After Tomorrow"
