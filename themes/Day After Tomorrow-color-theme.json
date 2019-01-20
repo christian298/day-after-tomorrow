@@ -308,18 +308,18 @@
     }
   ],
   "colors": {
-    "editor.background": "#12141d",
+    "editor.background": "#171824",
     "editorCursor.foreground": "#AEAFAD",
     "editor.foreground": "#C5C8C6",
     "editorWhitespace.foreground": "#4B4E55",
     "editor.lineHighlightBackground": "#282a2e",
     "editor.selectionBackground": "#373b41",
-    "sideBar.background": "#12141d",
+    "sideBar.background": "#171824",
     "sideBar.border": "#282a2e",
     "statusBar.background": "#4B4E55",
-    "tab.activeBackground": "#12141d",
+    "tab.activeBackground": "#171824",
     "tab.inactiveBackground": "#1a1d2b",
-    "activityBar.background": "#12141d",
+    "activityBar.background": "#171824",
     "activityBar.border": "#282a2e"
   },
   "name": "Day After Tomorrow"
